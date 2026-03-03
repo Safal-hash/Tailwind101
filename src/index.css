@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    font-family: 'Inter', sans-serif;
+  }
+
+
+@theme{
+  --animate-blink: blink 1s ease-in-out infinite;
+
+  @keyframes blink {
+    50% {
+      opacity: 0%;
+    }
+  }
+}
