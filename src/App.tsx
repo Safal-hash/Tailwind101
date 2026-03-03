@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import Container from "./components/Container";
 import Navbar from "./components/navbar";
@@ -11,7 +9,7 @@ function App() {
     <>
       <div className="flex flex-col items-center relative  h-screen [background:radial-gradient(125%_100%_at_50%_0%,#FFF_6.32%,#E0F0FF_29.28%,#E7EFFD_68.68%,#FFF_100%)]">
         <div className="max-w-5xl mx-auto absolute inset-0 w-full h-full pointer-events-none">
-          <div className=" absolute inset-y-0 left-0 h-full w-[1px] bg-linear-to-b from-neutral-300 to-neutral-100 " />
+          <div className=" absolute inset-y-0 left-0 h-full w-px bg-linear-to-b from-neutral-300 to-neutral-100 " />
           <div className=" absolute inset-y-0 right-0 h-full w-[.5px] bg-linear-to-b from-neutral-300 to-neutral-100" />
         </div>
 
